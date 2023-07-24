@@ -49,3 +49,6 @@ li:hover .dropdown {
 .dropdown li:hover {
   background-color: #555;
 }
+.link {
+  color: white;
+}
