@@ -35,3 +35,17 @@ li:hover {
 li:hover .dropdown {
   display: block;
 }
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown li {
+  padding: 5px;
+}
+
+.dropdown li:hover {
+  background-color: #555;
+}
