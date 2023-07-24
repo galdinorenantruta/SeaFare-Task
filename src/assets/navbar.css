@@ -1,0 +1,37 @@
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #555;
+}
+
+/* Dropdown styles */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+li:hover .dropdown {
+  display: block;
+}
